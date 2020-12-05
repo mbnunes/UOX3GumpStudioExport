@@ -1,9 +1,0 @@
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\bin\Debug\UOX3Export.dll
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\bin\Debug\UOX3Export.pdb
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.csprojAssemblyReference.cache
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.UOX3ExportForm.resources
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.csproj.GenerateResource.cache
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.csproj.CoreCompileInputs.cache
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.csproj.CopyComplete
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.dll
-C:\UltimaPHP\tools\UltimaPHPGumpExporter\obj\x86\Debug\UOX3Export.pdb

@@ -1,4 +1,0 @@
-/home/mnunes/UOX3GumpExporter/obj/x86/Debug/UOX3Export.csprojAssemblyReference.cache
-/home/mnunes/UOX3GumpExporter/obj/x86/Debug/UOX3Export.UOX3ExportForm.resources
-/home/mnunes/UOX3GumpExporter/obj/x86/Debug/UOX3Export.csproj.GenerateResource.cache
-/home/mnunes/UOX3GumpExporter/obj/x86/Debug/UOX3Export.csproj.CoreCompileInputs.cache
