@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj": {
+      "version": "1.9.2",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj",
+        "projectName": "GumpStudio",
+        "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\Ultima.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\Ultima.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "squirrel.windows": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\Ultima.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\Ultima.csproj",
+        "projectName": "Ultima",
+        "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\Ultima.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\Ultima\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj",
+        "projectName": "UOX3Export",
+        "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

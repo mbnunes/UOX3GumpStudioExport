@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3+jVTeKTbvx6cLVQPqjNrhsbrbB0Ma34TCRESBb8PpHvq1JlvxSM5fyQqmA4BLtQc1FWBfBtmYKA+9EPyTDe9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Felipe\\.nuget\\packages\\deltacompressiondotnet\\1.1.0\\deltacompressiondotnet.1.1.0.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\mono.cecil\\0.9.6.1\\mono.cecil.0.9.6.1.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\sharpcompress\\0.17.1\\sharpcompress.0.17.1.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\splat\\1.6.2\\splat.1.6.2.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\squirrel.windows\\1.9.1\\squirrel.windows.1.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

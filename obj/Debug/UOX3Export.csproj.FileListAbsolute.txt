@@ -1,0 +1,11 @@
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\output\UOX3Export.dll
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\output\UOX3Export.pdb
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.AssemblyInfoInputs.cache
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.AssemblyInfo.cs
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.csproj.CopyComplete
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.dll
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.pdb
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.UOX3ExportForm.resources
+C:\Users\Felipe\Downloads\GumpStudio-master\GumpStudio-master\UOX3Export\obj\Debug\UOX3Export.csproj.GenerateResource.cache

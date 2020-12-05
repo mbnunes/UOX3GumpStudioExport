@@ -1,0 +1,291 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "DeltaCompressionDotNet/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/DeltaCompressionDotNet.MsDelta.dll": {},
+          "lib/net20/DeltaCompressionDotNet.PatchApi.dll": {},
+          "lib/net20/DeltaCompressionDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net20/DeltaCompressionDotNet.MsDelta.dll": {},
+          "lib/net20/DeltaCompressionDotNet.PatchApi.dll": {},
+          "lib/net20/DeltaCompressionDotNet.dll": {}
+        }
+      },
+      "Mono.Cecil/0.9.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Mono.Cecil.Mdb.dll": {},
+          "lib/net45/Mono.Cecil.Pdb.dll": {},
+          "lib/net45/Mono.Cecil.Rocks.dll": {},
+          "lib/net45/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Mono.Cecil.Mdb.dll": {},
+          "lib/net45/Mono.Cecil.Pdb.dll": {},
+          "lib/net45/Mono.Cecil.Rocks.dll": {},
+          "lib/net45/Mono.Cecil.dll": {}
+        }
+      },
+      "SharpCompress/0.17.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpCompress.dll": {}
+        }
+      },
+      "Splat/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/Splat.dll": {}
+        }
+      },
+      "squirrel.windows/1.9.1": {
+        "type": "package",
+        "dependencies": {
+          "DeltaCompressionDotNet": "[1.1.0, 2.0.0)",
+          "Mono.Cecil": "0.9.6.1",
+          "SharpCompress": "[0.17.1]",
+          "Splat": "1.6.2"
+        },
+        "compile": {
+          "lib/Net45/NuGet.Squirrel.dll": {},
+          "lib/Net45/Squirrel.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/NuGet.Squirrel.dll": {},
+          "lib/Net45/Squirrel.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "GumpStudio/1.9.2": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Ultima": "1.0.0",
+          "squirrel.windows": "1.9.1"
+        },
+        "compile": {
+          "bin/placeholder/GumpStudio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GumpStudio.dll": {}
+        }
+      },
+      "Ultima/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/Ultima.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ultima.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeltaCompressionDotNet/1.1.0": {
+      "sha512": "j/zGAQ9hLbl7JDpeO40DaXvyyNxwQNDwnJEN7eCexn5F9Kid+VKya/Er0rfIv5Zod/32XarkqFP/V6WFHS/UpQ==",
+      "type": "package",
+      "path": "deltacompressiondotnet/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "deltacompressiondotnet.1.1.0.nupkg.sha512",
+        "deltacompressiondotnet.nuspec",
+        "lib/net20/DeltaCompressionDotNet.MsDelta.dll",
+        "lib/net20/DeltaCompressionDotNet.PatchApi.dll",
+        "lib/net20/DeltaCompressionDotNet.dll"
+      ]
+    },
+    "Mono.Cecil/0.9.6.1": {
+      "sha512": "yMsurNaOxxKIjyW9pEB+tRrR1S3DFnN1+iBgKvYvXG8kW0Y6yknJeMAe/tl3+P78/2C6304TgF7aVqpqXgEQ9Q==",
+      "type": "package",
+      "path": "mono.cecil/0.9.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Mono.Cecil.Mdb.dll",
+        "lib/net20/Mono.Cecil.Pdb.dll",
+        "lib/net20/Mono.Cecil.dll",
+        "lib/net35/Mono.Cecil.Mdb.dll",
+        "lib/net35/Mono.Cecil.Pdb.dll",
+        "lib/net35/Mono.Cecil.Rocks.dll",
+        "lib/net35/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net45/Mono.Cecil.Mdb.dll",
+        "lib/net45/Mono.Cecil.Pdb.dll",
+        "lib/net45/Mono.Cecil.Rocks.dll",
+        "lib/net45/Mono.Cecil.dll",
+        "lib/sl5/Mono.Cecil.Rocks.dll",
+        "lib/sl5/Mono.Cecil.dll",
+        "mono.cecil.0.9.6.1.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "SharpCompress/0.17.1": {
+      "sha512": "NSofrWwVr0z0ZNRCoV6XFjdopMbOSY6QVRLBfLXUDcjMLNKKhDV6zibiFEVa9eVaz24deslc8kqdVYurKJq/aA==",
+      "type": "package",
+      "path": "sharpcompress/0.17.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/SharpCompress.dll",
+        "lib/net45/SharpCompress.dll",
+        "lib/netstandard1.0/SharpCompress.dll",
+        "lib/netstandard1.3/SharpCompress.dll",
+        "sharpcompress.0.17.1.nupkg.sha512",
+        "sharpcompress.nuspec"
+      ]
+    },
+    "Splat/1.6.2": {
+      "sha512": "DeH0MxPU+D4JchkIDPYG4vUT+hsWs9S41cFle0/4K5EJMXWurx5DzAkj2366DfK14/XKNhsu6tCl4dZXJ3CD4w==",
+      "type": "package",
+      "path": "splat/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoMac/Splat.dll",
+        "lib/MonoMac/Splat.dll.mdb",
+        "lib/Net45/Splat.dll",
+        "lib/Net45/Splat.pdb",
+        "lib/NetCore45/Splat.dll",
+        "lib/NetCore45/Splat.pdb",
+        "lib/NetCore45/Splat.pri",
+        "lib/Portable-Win81+Wpa81/Splat.dll",
+        "lib/Portable-Win81+Wpa81/Splat.pdb",
+        "lib/Portable-Win81+Wpa81/Splat.pri",
+        "lib/Portable-net45+win+wpa81+wp80/Splat.dll",
+        "lib/Xamarin.Mac10/Splat-XamarinMac.csproj.FilesWrittenAbsolute.txt",
+        "lib/Xamarin.Mac10/Splat.dll",
+        "lib/Xamarin.Mac10/Splat.dll.mdb",
+        "lib/Xamarin.iOS10/Splat.dll",
+        "lib/Xamarin.iOS10/Splat.dll.mdb",
+        "lib/monoandroid/Splat.dll",
+        "lib/monoandroid/Splat.dll.mdb",
+        "lib/monotouch/Splat.dll",
+        "lib/monotouch/Splat.dll.mdb",
+        "lib/wp8/Splat.dll",
+        "lib/wp8/Splat.pdb",
+        "splat.1.6.2.nupkg.sha512",
+        "splat.nuspec"
+      ]
+    },
+    "squirrel.windows/1.9.1": {
+      "sha512": "hIM9q9Lmlqdz6Hul+UEEqNfU0xZflZtFbw7YY5m20Vn/mLpz1cIBjHHk1kqZnZrE7K3kJll5pEy29XMJQQo0lA==",
+      "type": "package",
+      "path": "squirrel.windows/1.9.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/squirrel.windows.props",
+        "build/squirrel.windows.targets",
+        "lib/Net45/NuGet.Squirrel.dll",
+        "lib/Net45/NuGet.Squirrel.pdb",
+        "lib/Net45/Squirrel.dll",
+        "lib/Net45/Squirrel.pdb",
+        "squirrel.windows.1.9.1.nupkg.sha512",
+        "squirrel.windows.nuspec",
+        "tools/7z.dll",
+        "tools/7z.exe",
+        "tools/Microsoft.Deployment.Resources.dll",
+        "tools/Microsoft.Deployment.WindowsInstaller.dll",
+        "tools/Setup.exe",
+        "tools/Squirrel-Mono.exe",
+        "tools/Squirrel.com",
+        "tools/Squirrel.exe",
+        "tools/StubExecutable.exe",
+        "tools/SyncReleases.exe",
+        "tools/WixNetFxExtension.dll",
+        "tools/WriteZipToSetup.exe",
+        "tools/candle.exe",
+        "tools/candle.exe.config",
+        "tools/darice.cub",
+        "tools/light.exe",
+        "tools/light.exe.config",
+        "tools/rcedit.exe",
+        "tools/signtool.exe",
+        "tools/template.wxs",
+        "tools/wconsole.dll",
+        "tools/winterop.dll",
+        "tools/wix.dll"
+      ]
+    },
+    "GumpStudio/1.9.2": {
+      "type": "project",
+      "path": "../GumpStudio/GumpStudio.csproj",
+      "msbuildProject": "../GumpStudio/GumpStudio.csproj"
+    },
+    "Ultima/1.0.0": {
+      "type": "project",
+      "path": "../Ultima/Ultima.csproj",
+      "msbuildProject": "../Ultima/Ultima.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "GumpStudio >= 1.9.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Felipe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj",
+      "projectName": "UOX3Export",
+      "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\UOX3Export.csproj",
+      "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\UOX3Export\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "projectReferences": {
+            "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\Downloads\\GumpStudio-master\\GumpStudio-master\\GumpStudio\\GumpStudio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "targetAlias": "net461",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

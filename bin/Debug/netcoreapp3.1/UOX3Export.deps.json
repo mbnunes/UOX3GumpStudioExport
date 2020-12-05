@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UOX3Export/1.0.0": {
+        "runtime": {
+          "UOX3Export.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UOX3Export/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
