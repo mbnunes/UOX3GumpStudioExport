@@ -83,7 +83,7 @@
                             writer.Write("");
 
                         GumpStudio.Elements.GroupElement element12 = this.designer.Stacks[num] as GumpStudio.Elements.GroupElement;
-                        writer.Write("\nmyGump.addPage(" +num+ ");");
+                        writer.Write("\nmyGump.AddPage(" +num+ ");");
                         if (element12 != null)
                         {
                             ArrayList elementsRecursive = element12.GetElementsRecursive();
@@ -133,7 +133,7 @@
                                                     GumpStudio.Elements.ImageElement element9 = element as GumpStudio.Elements.ImageElement;
                                                     if (element9 != null)
                                                     {
-                                                        writer.Write("\n\t\tmyGump.addGump(" + element9.X + ", "+ element9.Y + ", "+ element9.GumpID + ", "+ element9.Hue.Index + ");");
+                                                        writer.Write("\n\t\tmyGump.AddGump(" + element9.X + ", "+ element9.Y + ", "+ element9.GumpID + ", "+ element9.Hue.Index + ");");
                                                     }
                                                     else
                                                     {
@@ -234,7 +234,7 @@
                                                                             GumpStudio.Elements.HTMLElement element13 = element as GumpStudio.Elements.HTMLElement;
                                                                             if(element13 != null)
                                                                             {
-                                                                                writer.Write("\n\t\tmyGump.addHtmlGump(" + element13.X + ", " + element13.Y + ", " + element13.Width + ", " + element13.Height + ", \"" + element13.HTML +"\", "+element13.ShowBackground+", " +element13.ShowScrollbar+");");
+                                                                                writer.Write("\n\t\tmyGump.AddHtmlGump(" + element13.X + ", " + element13.Y + ", " + element13.Width + ", " + element13.Height + ", \"" + element13.HTML +"\", "+element13.ShowBackground+", " +element13.ShowScrollbar+");");
                                                                             }
                                                                         }
                                                                     }
